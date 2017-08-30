@@ -9,6 +9,10 @@ equivalent environment variables, and then executes a wrapped command. This
 plugin is designed to serve as an adapter for software which is not capable of
 assuming a role by itself.
 
+It's available in PyPI, so to install:
+
+    $ pip install aws-roleshell
+
 Usage is like so:
 
     $ aws --profile readonly roleshell -- mycommand
